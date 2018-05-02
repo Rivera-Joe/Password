@@ -4,9 +4,8 @@
 
 int main() {
 
-	Menu a;
-
-	a.choice();
+	menu();
+	
 
 
 
