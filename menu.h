@@ -10,11 +10,16 @@ using namespace std;
 
 
 
-class Menu {
+void menu();
+
+class profile {
 public:
-	string v = "vault";
-	int select;
-	void choice();
-	
+	string source;
+	string account;
+	void setSource();
+	void setAccount();
+	void setPassword();
+private:
+	string password;
 };
 #endif // !MENU_H
